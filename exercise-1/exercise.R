@@ -13,12 +13,8 @@
 first.ten <- seq(10, 20)
 next.ten <- seq(21, 30)
 all.numbers <- c(first.ten, next.ten)
-print(all.numbers)
 eleventh <- all.numbers[11]
 some.numbers <- all.numbers[c(2: 5)]
-print(some.numbers)
 len <- length(all.numbers)
-print(len)
 odd <- seq(1, 100, 2)
 all.odd <- all(odd %% 2 == 1)
-print(all.odd)
